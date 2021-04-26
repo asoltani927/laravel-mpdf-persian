@@ -1,0 +1,24 @@
+{
+    "name": "aminsoltani/laravel-mpdf-persian",
+    "description": "Laravel Mpdf: Using Mpdf in Laravel 8 for generate pdfs - with persian fonts",
+    "keywords": ["mpdf", "pdf", "laravel"],
+    "require": {
+        "PHP": "^7.0.0",
+        "mpdf/mpdf": "^8.0"
+    },
+    "license": "MIT",
+    "authors": [{
+        "name": "Amin Soltani",
+        "email": "asoltani927@gmail.com"
+    }],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ASoltani\\LaravelMpdf\\LaravelMpdfServiceProvider"
+            ],
+            "aliases": {
+                "PDF": "ASoltani\\LaravelMpdf\\Facades\\LaravelMpdf"
+            }
+        }
+    }
+}
