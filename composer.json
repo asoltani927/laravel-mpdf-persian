@@ -11,13 +11,16 @@
         "name": "Amin Soltani",
         "email": "asoltani927@gmail.com"
     }],
+    "autoload": {
+        "psr-4": {"Asoltani\\LaravelMpdf\\": "src/LaravelMpdf"}
+    },
     "extra": {
         "laravel": {
             "providers": [
-                "asoltani927\\LaravelMpdf\\LaravelMpdfServiceProvider"
+                "Asoltani\\LaravelMpdf\\LaravelMpdfServiceProvider"
             ],
             "aliases": {
-                "PDF": "asoltani927\\LaravelMpdf\\Facades\\LaravelMpdf"
+                "PDF": "Asoltani\\LaravelMpdf\\Facades\\LaravelMpdf"
             }
         }
     }

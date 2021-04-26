@@ -1,6 +1,6 @@
 <?php
 
-namespace asoltani927\LaravelMpdf;
+namespace Asoltani\LaravelMpdf;
 
 use Illuminate\Support\Facades\Config;
 
