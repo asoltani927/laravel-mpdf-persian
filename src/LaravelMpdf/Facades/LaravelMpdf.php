@@ -1,5 +1,4 @@
 <?php
-
 namespace Asoltani\LaravelMpdf\Facades;
 
 use Illuminate\Support\Facades\Facade as BaseFacade;

@@ -1,5 +1,4 @@
 <?php
-
 namespace Asoltani\LaravelMpdf;
 
 use Illuminate\Support\Facades\File;
