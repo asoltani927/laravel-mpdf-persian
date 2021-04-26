@@ -1,7 +1,7 @@
 
 <?php
 
-namespace ASoltani\LaravelMpdf;
+namespace asoltani927\LaravelMpdf;
 
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;

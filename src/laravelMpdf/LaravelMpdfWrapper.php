@@ -1,10 +1,10 @@
 <?php
 
-namespace ASoltani\LaravelMpdf;
+namespace asoltani927\LaravelMpdf;
 
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\View;
-use ASoltani\LaravelMpdf\LaravelMpdf as Pdf;
+use asoltani927\LaravelMpdf\LaravelMpdf as Pdf;
 
 class LaravelMpdfWrapper 
 {

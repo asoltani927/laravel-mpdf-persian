@@ -1,13 +1,13 @@
 <?php
 
-namespace ASoltani\LaravelMpdf\Facades;
+namespace asoltani927\LaravelMpdf\Facades;
 
 use Illuminate\Support\Facades\Facade as BaseFacade;
-use ASoltani\LaravelMpdf\LaravelMpdf as Pdf;
+use asoltani927\LaravelMpdf\LaravelMpdf as Pdf;
 
 /**
  * Class LaravelMpdf
- * @package ASoltani\LaravelMpdf\Facades
+ * @package asoltani927\LaravelMpdf\Facades
  *
  * @method Pdf loadHTML(string $html, ?array $config = [])
  * @method Pdf loadFile(string $file, ?array $config = [])

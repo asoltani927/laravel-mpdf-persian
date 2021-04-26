@@ -1,6 +1,6 @@
 <?php
 
-namespace ASoltani\LaravelMpdf;
+namespace asoltani927\LaravelMpdf;
 
 use Mpdf\Mpdf;
 
