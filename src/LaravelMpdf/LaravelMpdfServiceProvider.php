@@ -14,7 +14,7 @@ class LaravelMpdfServiceProvider extends BaseServiceProvider {
 	public function register()
 	{
 		$this->mergeConfigFrom(
-			__DIR__ . '/../config/mpdf.php', 'pdf'
+			__DIR__ . '/../config/mpdf.php', 'mpdf'
 		);
 
 		$this->app->bind('mpdf.container', function($app) {

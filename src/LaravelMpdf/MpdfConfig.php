@@ -16,7 +16,7 @@ abstract class MpdfConfig{
 		if (isset($this->config[$key])) {
 			return $this->config[$key];
 		} else {
-			return Config::get('pdf.' . $key);
+			return Config::get('mpdf.' . $key);
 		}
 	}
 }
