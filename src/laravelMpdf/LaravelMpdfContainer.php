@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\View;
 use Asoltani\LaravelMpdf\LaravelMpdf as Pdf;
 
-class LaravelMpdfWrapper 
+class LaravelMpdfContainer
 {
     /**
      * @param array $config

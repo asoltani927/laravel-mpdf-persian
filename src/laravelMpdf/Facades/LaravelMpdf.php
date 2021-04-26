@@ -24,6 +24,6 @@ class LaravelMpdf extends BaseFacade {
 	 * @return string
 	 */
 	protected static function getFacadeAccessor() { 
-		return 'mpdf.wrapper'; 
+		return 'mpdf.container';
 	}
 }

@@ -19,8 +19,8 @@ class LaravelMpdfServiceProvider extends BaseServiceProvider {
 			__DIR__ . '/../config/pdf.php', 'pdf'
 		);
 
-		$this->app->bind('mpdf.wrapper', function($app) {
-			return new LaravelMpdfWrapper();
+		$this->app->bind('mpdf.container', function($app) {
+			return new LaravelMpdfContainer();
 		});
 	}
 
